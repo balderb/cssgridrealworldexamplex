@@ -1,3 +1,41 @@
-h1 {
-    color: red;
+/* first some prefixes*/
+
+* {
+    box-sizing: border-box;
 }
+body, h1 {
+    margin: 0;
+    font-family: monospace;
+    line-height: 1.4em;
+    color:#333;
+}
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+
+
+}
+
+.p2 {
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #ddd;
+}
+
+.header > .logo > img {
+    width: 100px;
+
+}
+
+.header > .logo > img {
+    width: 30px;
+    
+}
+
+
+
